@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39|Wallpoet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="./smart.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark p-4">
+        <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="#"><img id="logo" width="50%" src="./logo.png" alt=""></a>
+        <button style="margin-top: 0;" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul id="navUl" class="navbar-nav mt-lg-0">
+                <li class="nav-item dropdown">
+                      <a class="noArrow nav-link homeText" href="#" id="dropdownId" aria-haspopup="true" aria-expanded="false">HOME</a>
+                      
+                  </li>
+                  <li class="nav-item">
+                      <a id="ourStorynav" class="noArrow homeText nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OUR STORY</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link homeText" href="#">BENNU <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link homeText" id="productText" href="#">PRODUCTS <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                          <a class="nav-link homeText" href="">LOGIN</a>
+                      </li>
+                <li class="nav-item" style="width: 1.5%;">
+                      <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                               <img id="searchB" width="450%" src="./output-onlinepngtools (1).png">
+                                 <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><p id="searchText" class="text-dark display-4">Search</p>
+                                    <a role="menuitem" tabindex="-1" href="#"><form class="form-inline my-2 my-lg-0">
+                                         <div id="searchDiv">
+
+                                        
+                                  <input id="searchForm" class="form-control mr-sm-2" type="text" placeholder="Search">
+                                      <button id="searchButton" class="btn btn-outline-secondary bg-secondary my-2 my-sm-0 text-dark font-weight-bold" type="submit">Search</button>
+                                   </div></form></a></li>
+                                </ul>
+                            </div>
+                </li>
+                <li class="nav-item" style="width: 1.5%;">
+                      <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">
+                               <img width="450%" src="./output-onlinepngtools.jpg">
+                              </button>
+                              <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1" style="margin-top: 0px; border-top-width: 0px;">
+                                  <div id="cartMenu">
+                                      <p id="cartText">CART</p>
+                                      <p id="numProducts">0 products in your cart</p>
+                                      <div id="special"><div class="form-group">
+                                        <label for=""></label>
+                                        <textarea style="background-color: gainsboro;" placeholder="Special instructions for seller." style="height: 100%;" class="form-control" name="" id="" rows="10">Special instructions, notes, or shipping account information.</textarea>
+                                      </div></div>
+                                      
+                                      <p>Total: <span id="dolars">$0.00</span> </p>
+                                      <p id="shipping">Shipping & taxes calculated at checkout</p>
+                                  </div>
+                                  <button type="button" class="cartButton btn btn-dark">EDIT CART</button>
+                                  <button type="button" class="cartButton btn btn-warning">CHECKOUT</button>
+                              </ul>
+                            </div>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+              
+              <section id="login">
+                  <div class="row">
+                      <div class="col-md-6">
+                            <div id="gif-kk">
+                                <h1 style="margin-top: 0;" class="welcome font-weight-bold">Welcome Back!</h1>
+                                <p id="toKeep" class="text-white" >To keep connected with us <br> please login with your personal info</p> 
+                                <button type="button" class="btn btn-light btnWelcome font-weight-bold">Sign-In</button> 
+                             </div>
+                        </div>  
+                  <div class="col-md-6">
+                        <div style="margin-top: 0;" id="create" class="col-md-6">
+                                <h1 id="createAcc">Create Account</h1>
+                                <div id="social">
+                                    <a href=""><img id="fb" src="./fbicon.svg" alt=""></a>
+                                    <a href=""><img id="gp" src="./gplus.svg" alt=""></a>
+                                    <a href=""><img id="in" src="./ledin.svg" alt=""></a>
+                                </div>
+                                <p id="it">or use your email for registeration:</p>
+                                <form>
+                                        <div class="form-group">
+                                          <label for="exampleInputEmail1">Email address:</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="exampleInputPassword1">Password:</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                        </div>
+                                        <div class="form-group form-check">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-light font-weight-bold">Submit</button>
+                                      </form>
+                            </div>
+                  </div>
+                </div>
+            </section>
+            <footer>
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 footer-left" style="margin-left: 0;">
+          <h3 class="text-white font-weight-bold">Subscribe To Our
+            Newsletter</h3>
+          <p class="text-white">Stay up to date with our latest offers!</p>
+          <form>
+            <div class="form-row align-items-center">
+              <div class="col-auto newsletter-smart-align">
+                <input id="newsletter-input" type="text" class="form-control " id="inlineFormInput"
+                  placeholder="Email Address">
+              </div>
+              <div class="col-auto newsletter-smart-align">
+                <button style="margin-left: 0;" id="signup-btn-smart" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <p class="text-white footer-desk-question">Questions? Please write us at:
+            info@abbuloka.com</p>
+          
+        </div>
+        <div class="col-lg-6 footer-smart-align footer-right" style="padding-left: 100px;">
+          <div class="info-text">
+            <h6 class="text-white font-weight-bold mb-5">INFO</h6>
+            <ul class="footer-r-a mt-5" style="padding-left: 12%;">
+              <a href="#">
+                <li class="d-inline-block">FAQ</li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block">Contact</li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block">Press</li>
+              </a>
+            </ul>
+          </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-2">
+                <h6 id="copyright" class="text-white">Copyright © 2020, ABBULOKA</h6>
+              </div>
+              <div id="socialStay" class="col-md-6" style="padding-left: 95px">
+                  <h6 class="text-white font-weight-bold" style="margin-top: 2%;">STAY IN TOUCH</h6>
+                  <ul class="footer-r-a" >
+                    <a href="#">
+                        <br>
+                      <li class="d-inline-block"><i class="fab fa-facebook-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-twitter-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-pinterest-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-instagram fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+                    </a>
+                  </ul>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
