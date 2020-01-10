@@ -1,0 +1,28 @@
+@media	only screen and (max-width: 720px)
+{
+.sizel{
+	font-size: 2em !important;
+ }
+.sizeH6L{
+ 	font-size: 0.75em !important;
+ 	margin: 1em !important;
+ }
+.borderbtm{
+	border-bottom: 0.20em dotted #007bff;
+}
+.sizeH5L{
+	font-size: 0.85em !important;
+}
+.dblock{
+	display: block !important; 
+	float: none !important;
+	clear: both !important;
+}
+.orderLS{
+	display: inline-block !important;
+}
+.orderLHid{
+	display: none !important;
+}
+
+}
