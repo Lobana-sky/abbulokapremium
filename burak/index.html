@@ -56,28 +56,22 @@
             </li>
             <li class="nav-item" style="width: 1.5%;">
               <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                  <img id="searchB" width="450%" src="./img/output-onlinepngtools (1).png">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
-                  <li role="presentation">
-                    <p id="searchText">Search</p>
-                    <a role="menuitem" tabindex="-1" href="#">
-                      <form class="form-inline my-2 my-lg-0">
-                        <div id="searchDiv">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                       <img id="searchB" width="450%" src="./img/output-onlinepngtools (1).png">
+                         <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
+                        <li role="presentation"><p id="searchText" class="text-dark display-4">Search</p>
+                            <a role="menuitem" tabindex="-1" href="#"><form class="form-inline my-2 my-lg-0">
+                                 <div id="searchDiv">
 
-
+                                
                           <input id="searchForm" class="form-control mr-sm-2" type="text" placeholder="Search">
-                          <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0"
-                            type="submit">Search</button>
-                        </div>
-                      </form>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+                              <button id="searchButton" class="btn btn-outline-secondary bg-secondary my-2 my-sm-0 text-dark font-weight-bold" type="submit">Search</button>
+                           </div></form></a></li>
+                        </ul>
+                    </div>
+        </li>
             <li class="nav-item" style="width: 1.5%;">
               <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">
@@ -209,7 +203,7 @@
   <footer>
     <div class="container ">
       <div class="row">
-        <div class="col-lg-6 footer-left">
+        <div class="col-lg-6 footer-left" style="margin-left: 0;">
           <h3 class="text-white font-weight-bold">Subscribe To Our
             Newsletter</h3>
           <p class="text-white">Stay up to date with our latest offers!</p>
@@ -220,18 +214,18 @@
                   placeholder="Email Address">
               </div>
               <div class="col-auto newsletter-smart-align">
-                <button id="signup-btn-smart" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
+                <button style="margin-left: -12px;" id="signup-btn-smart" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
               </div>
             </div>
           </form>
           <p class="text-white footer-desk-question">Questions? Please write us at:
             info@abbuloka.com</p>
-          <h6 id="copyright" class="text-white">Copyright © 2020, ABBULOKA</h6>
+          
         </div>
-        <div class="col-lg-6 footer-smart-align footer-right">
+        <div class="col-lg-6 footer-smart-align footer-right" style="padding-left: 140px;">
           <div class="info-text">
             <h6 class="text-white font-weight-bold">INFO</h6>
-            <ul class="footer-r-a">
+            <ul class="footer-r-a" style="padding-left: 12%;">
               <a href="#">
                 <li class="d-inline-block">FAQ</li>
               </a>
@@ -243,26 +237,36 @@
               </a>
             </ul>
           </div>
-          <div class="social-media">
-            <h6 class="text-white font-weight-bold">STAY IN TOUCH</h6>
-            <ul class="footer-r-a">
-              <a href="#">
-                <li class="d-inline-block"><i class="fab fa-facebook-square fa-2x"></i></li>
-              </a>
-              <a href="#">
-                <li class="d-inline-block"><i class="fab fa-twitter-square fa-2x"></i></li>
-              </a>
-              <a href="#">
-                <li class="d-inline-block"><i class="fab fa-pinterest-square fa-2x"></i></li>
-              </a>
-              <a href="#">
-                <li class="d-inline-block"><i class="fab fa-instagram fa-2x"></i></li>
-              </a>
-              <a href="#">
-                <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
-              </a>
-            </ul>
           </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h6 id="copyright" class="text-white">Copyright © 2020, ABBULOKA</h6>
+              </div>
+              <div id="soc-med" class="col-md-6" style="padding-left: 145px">
+                  <h6 class="text-white font-weight-bold" style="margin-top: 2%;">STAY IN TOUCH</h6>
+                  <ul class="footer-r-a" style="padding-left: 12%;">
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-facebook-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-twitter-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-pinterest-square fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="fab fa-instagram fa-2x"></i></li>
+                    </a>
+                    <a href="#">
+                      <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+                    </a>
+                  </ul>
+              </div>
+              
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
