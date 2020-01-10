@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/smart.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39|Wallpoet&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+
+<body>
+  <header>
+    <div id="head">
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark p-4">
+        <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="#"><img id="logo" width="50%"
+            src="./img/logo.png" alt=""></a>
+        <button style="margin-top: 0;" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+          data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul id="navUl" class="navbar-nav mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="noArrow nav-link homeText" href="#" id="dropdownId" aria-haspopup="true"
+                aria-expanded="false">HOME</a>
+
+            </li>
+            <li class="nav-item">
+              <a id="ourStorynav" class="noArrow homeText nav-link dropdown-toggle" href="#" id="dropdownId"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OUR STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" href="#">BENNU <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" id="productText" href="#">PRODUCTS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" href="">LOGIN</a>
+            </li>
+            <li class="nav-item" style="width: 1.5%;">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                  <img id="searchB" width="450%" src="./img/output-onlinepngtools (1).png">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
+                  <li role="presentation">
+                    <p id="searchText">Search</p>
+                    <a role="menuitem" tabindex="-1" href="#">
+                      <form class="form-inline my-2 my-lg-0">
+                        <div id="searchDiv">
+
+
+                          <input id="searchForm" class="form-control mr-sm-2" type="text" placeholder="Search">
+                          <button id="searchButton" class="btn btn-outline-success my-2 my-sm-0"
+                            type="submit">Search</button>
+                        </div>
+                      </form>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item" style="width: 1.5%;">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">
+                  <img width="450%" src="./img/output-onlinepngtools.jpg">
+                </button>
+                <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1"
+                  style="margin-top: 0px; border-top-width: 0px;">
+                  <div id="cartMenu">
+                    <p id="cartText">CART</p>
+                    <p id="numProducts">0 products in your cart</p>
+                    <div id="special">
+                      <div class="form-group">
+                        <label for=""></label>
+                        <textarea style="background-color: gainsboro;" placeholder="Special instructions for seller."
+                          style="height: 100%;" class="form-control" name="" id=""
+                          rows="10">Special instructions, notes, or shipping account information.</textarea>
+                      </div>
+                    </div>
+
+                    <p>Total: <span id="dolars">$0.00</span> </p>
+                    <p id="shipping">Shipping & taxes calculated at checkout</p>
+                  </div>
+                  <button type="button" class="cartButton btn btn-dark">EDIT CART</button>
+                  <button type="button" class="cartButton btn btn-warning">CHECKOUT</button>
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+    <section class="masthead">
+      <div class="container text-center h-100">
+        <div class="col-md-12">
+          <h2 id="join-b" class="text-white font-weight-lighter ">JOIN US FOR</h2>
+          <h1 id="eternal-b" class="text-white font-weight-bold ">ETERNAL&nbsp;JOURNEY</h1>
+          <button type="button" class="btn btn-light font-weight-bold shop-btn-head">SHOP NOW</button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- <h1 id="join" class="text-white text-center">JOIN US FOR <br> <span id="eternal"> ETERNAL JOURNEY</span><br><button type="button" class="btn pl-4 pr-4 btn-secondary">SHOP NOW</button></h1> -->
+
+  <div class="sticky-top hidden-spacer"> </div>
+  <main id="home-main-b">
+
+    <section id="our-mission">
+      <div class="">
+        <div class="row">
+          <div id="mis-tex" class="col-md-6 mis-tex-smart mis-tex-desk">
+            <h1 class="text-white font-weight-bold">OUR MISSION</h1>
+            <p class="text-white">Every person has right to be immortal. Since Bennu was discovered
+              with speciality of renew body cells,
+              Abbuloka, has mission to brings Bennu rocks to the world.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid mis-img" src="./img/22bennuasteroid.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------------Raw / Processed-------------->
+
+    <section id="raw-process">
+      <div class="px-0 mx-0">
+        <div class="row ">
+          <div class="col-md-6 ">
+            <div class="row" id="box-search">
+              <div class="block-smart-b left_bar thumbnail text-center" aria-haspopup="true">
+                <img id="raw-img" class="img-fluid " src="./img/22032019_bennu1.jpg" alt="">
+                <div id="raw-col-b" class="center-text-smart caption center-text-desk caption-desk caption-rev">
+                  <h1 class="text-white font-weight-bold">RAW</h1>
+                  <h4 class="text-white font-weight-bold font-italic">Untouced pieces
+                    from Benno</h4>
+                  <button type="button" class="btn btn-light font-weight-bold shop-btn-smart shop-btn-desk">SHOP
+                    NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 ">
+            <div class="row" id="box-search">
+              <div class="block-smart-b left_bar thumbnail text-center" aria-haspopup="true">
+                <img id="processed-img" class="img-fluid" src="./img/22HTB1NQEcKVXXXXXIXXXXq6xXFXXXz.jpg" alt="">
+                <div id="process-col-b" class="center-text-smart caption-p  caption-p-desk caption-rev">
+                  <h1 class="text-white font-weight-bold">PROCESSED</h1>
+                  <h4 class="text-white font-weight-bold font-italic">Carefully
+                    processed by craftsmen for you.</h4>
+                  <button type="button" class="btn btn-light font-weight-bold shop-btn-smart shop-btn-desk">SHOP
+                    NOW</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--------------Our Story-------------->
+
+    <section id="our-story">
+      <div class="">
+
+        <div class="row">
+          <div class="row">
+            <div class="col-md-6 block-smart-b">
+              <img class=" sto-img-smart sto-img img-fluid" src="./img/22gettyimages-523367172-1568809023.jpg" alt="">
+            </div>
+            <div id="sto-tex" class="col-md-6 block-smart-b sto-tex-smart sto-tex-desk">
+              <h1 class="text-white font-weight-bold">OUR STORY</h1>
+              <p class="text-white">There is a mysterious carbonaceous asteroid in the Apollo group
+                discovered by the LINEAR Project on 11 September 1999. It is named after the Bennu, the ancient Egyptian
+                mythological bird associated with the Sun, creation, and rebirth.
+              </p>
+              <button type="button" class="btn btn-light font-weight-bold shop-btn-smart shop-btn-desk">LEARN
+                MORE</button>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+  <!--------------Footer-------------->
+
+  <footer>
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 footer-left">
+          <h3 class="text-white font-weight-bold">Subscribe To Our
+            Newsletter</h3>
+          <p class="text-white">Stay up to date with our latest offers!</p>
+          <form>
+            <div class="form-row align-items-center">
+              <div class="col-auto newsletter-smart-align">
+                <input id="newsletter-input" type="text" class="form-control " id="inlineFormInput"
+                  placeholder="Email Address">
+              </div>
+              <div class="col-auto newsletter-smart-align">
+                <button id="signup-btn-smart" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <p class="text-white footer-desk-question">Questions? Please write us at:
+            info@abbuloka.com</p>
+          <h6 id="copyright" class="text-white">Copyright © 2020, ABBULOKA</h6>
+        </div>
+        <div class="col-lg-6 footer-smart-align footer-right">
+          <div class="info-text">
+            <h6 class="text-white font-weight-bold">INFO</h6>
+            <ul class="footer-r-a">
+              <a href="#">
+                <li class="d-inline-block">FAQ</li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block">Contact</li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block">Press</li>
+              </a>
+            </ul>
+          </div>
+          <div class="social-media">
+            <h6 class="text-white font-weight-bold">STAY IN TOUCH</h6>
+            <ul class="footer-r-a">
+              <a href="#">
+                <li class="d-inline-block"><i class="fab fa-facebook-square fa-2x"></i></li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block"><i class="fab fa-twitter-square fa-2x"></i></li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block"><i class="fab fa-pinterest-square fa-2x"></i></li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block"><i class="fab fa-instagram fa-2x"></i></li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+</body>
+
+</html>
