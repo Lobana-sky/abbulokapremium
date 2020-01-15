@@ -8,15 +8,12 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/story.css" />
-    <link rel="stylesheet" href="burak/css/smart.css" />
-    <link rel="stylesheet" href="burak/css/style.css" />
-
+    <link rel="stylesheet" href="css/index.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css">
     <title>Abbuloka | Story</title>
   </head>
   <body>
@@ -24,8 +21,8 @@
 
     <div id="head">
       <nav class="navbar navbar-expand-sm fixed-top navbar-dark p-4">
-        <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="#"><img id="logo" width="50%"
-            src="../burak/img/logo.png" alt=""></a>
+        <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="index.html"><img id="logo" width="50%"
+            src="img/logo_index.png" alt=""></a>
         <button style="margin-top: 0;" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
           data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -34,7 +31,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul id="navUl" class="navbar-nav mt-lg-0">
             <li class="nav-item dropdown">
-              <a class="noArrow nav-link homeText" href="#" id="dropdownId" aria-haspopup="true"
+              <a class="noArrow nav-link homeText" href="index.html" id="dropdownId" aria-haspopup="true"
                 aria-expanded="false">HOME</a>
 
             </li>
@@ -54,7 +51,7 @@
             <li class="nav-item" style="width: 1.5%;">
               <div class="dropdown">
                       <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-                       <img id="searchB" width="450%" src="../burak/img/output-onlinepngtools (1).png">
+                       <img id="searchB" width="450%" src="img/search_icon.png">
                          <span class="caret"></span>
                       </button>
                       <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
@@ -72,7 +69,7 @@
             <li class="nav-item" style="width: 1.5%;">
               <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">
-                  <img width="450%" src="../burak/img/output-onlinepngtools.jpg">
+                  <img width="450%" src="img/shopping_icon.jpg">
                 </button>
                 <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1"
                   style="margin-top: 0px; border-top-width: 0px;">
@@ -211,74 +208,79 @@
     <!--------------Footer-------------->
 
     <footer>
-      <div class="container ">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6 footer-left" style="margin-left: 0;">
-            <h3 class="text-white font-weight-bold">Subscribe To Our
-              Newsletter</h3>
-            <p class="text-white">Stay up to date with our latest offers!</p>
-            <form>
-              <div class="form-row align-items-center">
-                <div class="col-auto newsletter-smart-align">
-                  <input id="newsletter-input" type="text" class="form-control " id="inlineFormInput"
-                    placeholder="Email Address">
+          <div class="col-md-6 ">
+            <div class="footerRightAlign">
+              <h3 class="text-white font-weight-bold">Subscribe To Our
+                Newsletter</h3>
+              <p class="text-white">Stay up to date with our latest offers!</p>
+              <form>
+                <div class="form-row align-items-center">
+                  <div class="col-auto newsletter-smart-align">
+                    <input id="newsletter-input" type="text" class="form-control " id="inlineFormInput"
+                      placeholder="Email Address">
+                  </div>
+                  <div class="col-auto newsletter-smart-align">
+                    <button id="signUpBtn" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
+                  </div>
                 </div>
-                <div class="col-auto newsletter-smart-align">
-                  <button style="margin-left: -12px;" id="signup-btn-smart" type="submit" class="btn btn-light font-weight-bold">Sign Up</button>
-                </div>
-              </div>
-            </form>
-            <p class="text-white footer-desk-question">Questions? Please write us at:
-              info@abbuloka.com</p>
-            
+              </form>
+              <p class="text-white">Questions? Please write us at:
+                info@abbuloka.com</p>
+            </div>
           </div>
-          <div class="col-lg-6 footer-smart-align footer-right" style="padding-left: 140px;">
-            <div class="info-text">
+          <div class="col-md-6">
+            <div id="info" class="footerRightAlign">
               <h6 class="text-white font-weight-bold">INFO</h6>
-              <ul class="footer-r-a" style="padding-left: 12%;">
+              <ul class="foot-to-left">
                 <a href="#">
-                  <li class="d-inline-block">FAQ</li>
+                  <li class="d-inline-block mr-3">FAQ</li>
                 </a>
                 <a href="contact/index.html">
-                  <li class="d-inline-block">Contact</li>
+                  <li class="d-inline-block mr-3">Contact</li>
                 </a>
                 <a href="#">
                   <li class="d-inline-block">Press</li>
                 </a>
               </ul>
             </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <h6 id="copyright" class="text-white">Copyright © 2020, ABBULOKA</h6>
-                </div>
-                <div id="soc-med" class="col-md-6" style="padding-left: 145px">
-                    <h6 class="text-white font-weight-bold" style="margin-top: 2%;">STAY IN TOUCH</h6>
-                    <ul class="footer-r-a" style="padding-left: 12%;">
-                      <a href="https://www.facebook.com/">
-                        <li class="d-inline-block"><i class="fab fa-facebook-square fa-2x"></i></li>
-                      </a>
-                      <a href="https://twitter.com/">
-                        <li class="d-inline-block"><i class="fab fa-twitter-square fa-2x"></i></li>
-                      </a>
-                      <a href="https://tr.pinterest.com/">
-                        <li class="d-inline-block"><i class="fab fa-pinterest-square fa-2x"></i></li>
-                      </a>
-                      <a href="https://www.instagram.com/">
-                        <li class="d-inline-block"><i class="fab fa-instagram fa-2x"></i></li>
-                      </a>
-                      <a href="https://www.linkedin.com/feed/">
-                        <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
-                      </a>
-                    </ul>
-                </div>
-                
-              </div>
-            </div>
-            
           </div>
         </div>
+      </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row align-items-end">
+          <div class="col-md-6 ">
+            <div class="footerRightAlign">
+              <h6 id="copyright" class="text-white mb-3">Copyright © 2020, ABBULOKA</h6>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3 ">
+            <div id="stayIn" class="footerRightAlign">
+              <h6 class="text-white font-weight-bold">STAY IN TOUCH</h6>
+              <ul class="foot-to-left">
+                <a href="https://www.facebook.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-facebook-square fa-2x"></i></li>
+                </a>
+                <a href="https://twitter.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-twitter-square fa-2x"></i></li>
+                </a>
+                <a href="https://tr.pinterest.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-pinterest-square fa-2x"></i></li>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-instagram fa-2x"></i></li>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                  <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       </div>
     </footer>
     
