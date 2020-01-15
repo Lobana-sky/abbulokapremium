@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(./img/bennuasteroid.jpg);
+    background-image: url(../img/bennuasteroid.jpg);
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -38,19 +38,19 @@ header {
 }
 
 .col-img-1 {
-    background-image: url(./img/Asteroid-Bennu-earth-shut.jpg);
+    background-image: url(../img/Asteroid-Bennu-earth-shut.jpg);
     transform: scaleX(-1);
     background-size: cover;
     background-position: center;
 }
 
 .col-img-2 {
-    background-image: url(./img/2309_Bennu_Particle_Jets_320.jpg);
+    background-image: url(../img/2309_Bennu_Particle_Jets_320.jpg);
     background-size: cover;
 }
 
 .col-img-3 {
-    background-image: url(./img/917_687_bennu_carousel_2_thumb.jpg);
+    background-image: url(../img/917_687_bennu_carousel_2_thumb.jpg);
     background-size: cover;
 }
 
@@ -130,7 +130,7 @@ header {
 }
 
 #team-header-bg {
-    background-image: url(./img/cookies-in-space.jpg);
+    background-image: url(../img/cookies-in-space.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(1);
