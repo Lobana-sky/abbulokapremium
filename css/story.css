@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(./img/earth-background-5.jpg);
+    background-image: url(../img/earth-background-5.jpg);
     background-size: cover;
     height: 700px;
 }
@@ -35,18 +35,18 @@ header {
 }
 
 .col-img-1 {
-    background-image: url(./img/921_683_bennu_carousel_5_thumb.jpg);
+    background-image: url(../img/921_683_bennu_carousel_5_thumb.jpg);
     background-size: cover;
     
 }
 
 .col-img-2 {
-    background-image: url(./img/bennuasteroid.jpg);
+    background-image: url(../img/bennuasteroid.jpg);
     background-size: cover;
 }
 
 .col-img-3 {
-    background-image: url(./img/917_687_bennu_carousel_2_thumb.jpg);
+    background-image: url(../img/917_687_bennu_carousel_2_thumb.jpg);
     background-size: cover;
 }
 
@@ -126,7 +126,7 @@ header {
 }
 
 #team-header-bg {
-    background-image: url(./img/cookies-in-space.jpg);
+    background-image: url(../img/cookies-in-space.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(1);
