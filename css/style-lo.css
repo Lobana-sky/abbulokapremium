@@ -11,37 +11,37 @@
 }
 .bgImag0{
 	height: 30em !important;
-	background:url(./img/slider/00.jpg) no-repeat;
+	background:url(../img/slider/00.jpg) no-repeat;
 	background-size: cover;
 	background-position: center; 
 }
 .bgImag1{
 	height: 30em !important;
-	background:url('./img/slider/11.jpg') no-repeat ;
+	background:url('../img/slider/11.jpg') no-repeat ;
 	background-size: cover;
 	background-position: center; 
 }
 .bgImag2{
 	height: 30em !important;
-	background:url('./img/slider/22.jpg') no-repeat;
+	background:url('../img/slider/22.jpg') no-repeat;
 	background-size: cover;
 	background-position: center; 
 }
 .bgImag3{
 	height: 30em !important;
-	background:url('./img/slider/4.jpg') no-repeat ;
+	background:url('../img/slider/4.jpg') no-repeat ;
 	background-size: cover;
 	background-position: center; 
 }
 .bgImag4{
 	height: 30em !important;
-	background:url('./img/slider/33.jpg') no-repeat;
+	background:url('../img/slider/33.jpg') no-repeat;
 	background-size: cover;
 	background-position: center; 
 }
 .bgImag5{
 	height: 30em !important;
-	background:url('./img/slider/555.jpg') no-repeat;
+	background:url('../img/slider/555.jpg') no-repeat;
 	background-size: cover;
 	background-position: center; 
 }
