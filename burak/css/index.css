@@ -361,36 +361,6 @@ button.dropdown-toggle::after {
 
 /* NAV STYLES END  - KAAN */
 
-#eternal {
-    font-size: 120%;
-}
-
-button {
-    margin-top: 5%;
-    padding-right: 8%;
-}
-
-#bos {
-    height: 20vh;
-}
-
-#join {
-    padding-top: 8%;
-}
-
-#black {
-    height: 75vh;
-    background-color: black;
-}
-
-#tas {
-    float: right;
-}
-
-#our {
-    padding-top: 10%;
-}
-
 .sticky-top {
     background-color: black;
     height: 80px;
@@ -402,77 +372,63 @@ button {
     }
 }
 
-.masthead {
-    height: 85vh;
-    min-height: 500px;
+#nav-head {
+    padding: 20px 20px;
+}
+
+.bg-img {
+    min-height: 600px;
     background-image: url("https://media.giphy.com/media/l0K4lUxBzIOeJd1EA/giphy.gif");
     background-position: left;
     background-repeat: round;
-    background-size: 60%;
+    background-size: contain;
 }
 
-.masthead h1 {
+#header-text h1 {
     letter-spacing: 6px;
-    font-size: 3.125em;
+    font-size: 3.125rem;
 }
 
-.masthead h2 {
-    font-size: 1.875em !important;
-}
-
-.masthead button {
-    margin-top: 7%;
-    padding: 10px 40px;
-}
-
-.masthead:nth-child(2) {
-    padding-top: 14% !important;
-}
-
-#gif-header-content img {
-    background-repeat: round;
-    background-size: cover;
+#header-text h2 {
+    font-size: 1.875rem;
 }
 
 /*--------------Our Mission-------------*/
 
-#our-mission h1, #our-mission p {
-    padding: 0 15%;
-}
-
-#our-mission #mis-tex {
-    margin: auto 0 !important;
-}
-
-.mis-img {
-    position: relative;
-    left: -2%;
+.mis-tex {
+    padding: 0 8%;
 }
 
 /*--------------Raw/Process-------------*/
 
-.thumbnail {
+.ico {
+    padding: .5rem;
+}
+
+.thumbnail2 {
     position: relative;
 }
 
-.caption-rev {
+.caption2 {
     position: absolute;
-    top: 40%;
+    top: 40% !important;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
-#raw-img:hover {
+#raw-process button {
+    margin-top: 1%;
+    padding: 10px 40px;
+}
+
+#raw-process img:hover {
     filter: brightness(50%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 0.1s ease;
-}
-
-#processed-img {
-    filter: grayscale();
 }
 
 #processed-img:hover {
@@ -484,82 +440,182 @@ button {
     transition: all 0.1s ease;
 }
 
-.shop-btn-desk {
-    margin-top: 20px;
-    padding: 10px 40px !important;
-    font-weight: bold !important;
-}
-
 /*--------------Our Story-------------*/
-
-#our-story p, #our-story h1 {
-    padding: 0 15%;
-}
-
-#sto-tex button {
-    margin-left: 15%;
-}
-
-#our-story #sto-tex {
-    margin: auto 0 !important;
-}
-
-.sto-img {
-    margin-left: 2% !important;
-}
 
 /*--------------Footer-------------*/
 
 footer {
-    padding-top: 5%;
+    margin-top: 2%;
 }
 
-.footer-left {
-    margin-left: -10%;
-}
-
-.footer-right {
-    width: 100%;
-    padding-left: 22%;
-}
-
-footer li {
-    color: white;
-}
-
-.footer-r-a {
-    margin-left: -12%;
+.footerRightAlign {
+    padding: 0 15%;
 }
 
 footer a {
-    margin-right: 3%;
+    color: white;
 }
 
-footer li:hover {
-    color: lightgrey;
+footer a:hover {
+    color: lightgray;
 }
 
-.social-media {
-    margin-top: 30%;
+.foot-to-left {
+    margin-left: -5%;
+    margin-bottom: 0;
 }
 
-#signup-btn-smart {
-    position: relative;
-    top: -2px;
-    margin-left: -10px;
-    padding: 5px 15px !important;
-    font-weight: bold !important;
-    height: 38px;
-    border-radius: 0 3px 3px 0;
+@media (max-width: 576px) {
+    .bg-img {
+        min-height: 400px;
+        background-size: cover;
+    }
+    #header-text {
+        margin-top: 28%;
+    }
+    #header-text h1 {
+        letter-spacing: 6px;
+        font-size: 1.5rem;
+    }
+    #header-text h2 {
+        font-size: 1.4rem;
+    }
+    #header-text button {
+        margin-top: 1%;
+        padding: 10px 30px;
+    }
+    /*-------------Mission---------------*/
+    #mis-tex h1 {
+        font-size: 1.5rem;
+    }
+    .thumbnail1 {
+        position: relative;
+    }
+    .caption1 {
+        position: absolute;
+        top: 12% !important;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    #mission img {
+        filter: brightness(30%);
+        height: 200px;
+    }
+    #raw-process h1 {
+        font-size: 2.5rem;
+    }
+    #raw-process h4 {
+        font-size: 1.2rem;
+    }
+    #story img {
+        filter: brightness(30%);
+        height: 250px;
+    }
+    #story .mis-tex {
+        padding-right: 0 !important;
+    }
+    footer {
+        margin-top: 4%;
+    }
+    #newsletter-input {
+        width: 280px !important;
+        border-radius: 3px;
+    }
+    #signUpBtn {
+        margin-top: 10% !important;
+        margin-left: 1% !important;
+        border-radius: 3px;
+        width: 100px;
+    }
 }
 
-#newsletter-input {
-    width: 400px !important;
-    border-radius: 3px 0 0 3px;
+@media (min-width: 576px) {
+    #header-text {
+        margin-top: 16%;
+    }
+    #raw-process h1 {
+        font-size: 2.8rem;
+    }
+    #raw-process h4 {
+        font-size: 1.6rem;
+    }
+    #newsletter-input {
+        width: 350px !important;
+        border-radius: 3px;
+    }
 }
 
-#copyright {
-    margin-top: 11%;
+@media (max-width: 768px) {
+    #mis-tex h1 {
+        font-size: 1.5rem;
+    }
+    .thumbnail1 {
+        position: relative;
+    }
+    .caption1 {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    #mission img {
+        filter: brightness(30%);
+        height: 200px;
+    }
+    #story img {
+        filter: brightness(30%);
+        height: 250px;
+    }
+    #story .mis-tex {
+        padding-right: 0 !important;
+    }
+    #copyright {
+        visibility: hidden;
+    }
+    .footerRightAlign {
+        padding: 0 6%;
+    }
 }
 
-@media only screen and (max-width: 1200px) {}
+@media (min-width: 768px) {
+    #header-text {
+        margin-top: 13%;
+    }
+    #raw-process h1 {
+        font-size: 2.6rem;
+    }
+    #raw-process h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #header-text {
+        margin-top: 11%;
+    }
+    #raw-process h1 {
+        font-size: 5rem;
+    }
+    #raw-process h4 {
+        font-size: 1.5rem;
+    }
+    #signUpBtn {
+        margin-left: -10px !important;
+        border-radius: 0 3px 3px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #nav-head {
+        padding: 20px 60px;
+    }
+    #header-text {
+        margin-top: 7%;
+    }
+    #newsletter-input {
+        width: 146%;
+        border-radius: 3px 0 0 3px;
+    }
+}
