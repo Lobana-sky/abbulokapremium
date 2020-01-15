@@ -371,6 +371,12 @@ button.dropdown-toggle::after {
         margin-top: 0px;
     }
 }
+/*---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+* {
+    font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    color: white;
+}
 
 #nav-head {
     padding: 20px 20px;
