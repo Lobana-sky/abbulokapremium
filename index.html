@@ -29,8 +29,8 @@
       <div id="head">
         <nav id="nav-head">
           <div class="navbar navbar-expand-lg fixed-top  navbar-dark p-4">
-            <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="index.html"><img id="logo" width="50%"
-                src="img/logo_index.png" alt=""></a>
+            <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="index.html"><img   width="50%"
+                src="img/logo_index.png" value="PLAY"  onclick="play()"  alt=""></a>
             <button style="margin-top: 0;" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
               data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
               aria-label="Toggle navigation">
@@ -256,7 +256,10 @@
                 <li class="d-inline-block mr-3"><i class="fab fa-instagram fa-2x"></i></li>
               </a>
               <a href="https://www.linkedin.com/feed/">
-                <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+                <li class="d-inline-block"> <i class="far fa-envelope fa-2x"></i></li>
+              </a>
+              <a href="#">
+                <li class="d-inline-block"> <input type="button" style="width: 30px; margin-top: -66px !important; border: 0; background-color: transparent;" value="."  onclick="play()"></li>
               </a>
             </ul>
           </div>
@@ -266,10 +269,15 @@
     </div>
     </div>
   </footer>
-
-</body>
-
-</html>
+  <script>
+    function play(){
+         var audio = document.getElementById("audio");
+         audio.play();
+                   }
+     </script>
+  
+ 
+  <audio id="audio" src="abbuloka.mp3" ></audio>
 </body>
 
 </html>
