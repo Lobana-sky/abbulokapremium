@@ -132,6 +132,11 @@ button.dropdown-toggle::after {
     text-align: left;
     margin-left: 3%;
     margin-top: 4%;
+    color: black;
+}
+
+#cartMenu span{
+    color: black;
 }
 
 #special {
