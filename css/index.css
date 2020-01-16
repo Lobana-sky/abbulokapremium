@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-
 * {
     font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     color: white;
@@ -378,8 +377,9 @@ button.dropdown-toggle::after {
         margin-top: 0px;
     }
 }
+
 /*---------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
 * {
     font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     color: white;
@@ -400,6 +400,7 @@ button.dropdown-toggle::after {
 #header-text h1 {
     letter-spacing: 6px;
     font-size: 3.125rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header-text h2 {
