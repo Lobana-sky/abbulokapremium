@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+    font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url(../img/earth-background-5.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.line-1, .line-2 {
+    font-size: 2.6rem;
+    mix-blend-mode: exclusion;
+}
+
+.line-1 {
+    padding-top: 120px;
+    padding-left: 0;
+}
+
+.line-2 {
+    padding-left: 0;
+    text-align: right;
+}
+
+.text-box {
+    padding: 50px 10%;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.col-img-1 {
+    background-image: url(../img/921_683_bennu_carousel_5_thumb.jpg);
+    background-size: cover;
+    
+}
+
+.col-img-2 {
+    background-image: url(../img/bennuasteroid.jpg);
+    background-size: cover;
+}
+
+.col-img-3 {
+    background-image: url(../img/917_687_bennu_carousel_2_thumb.jpg);
+    background-size: cover;
+}
+
+.hor-line {
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 3px;
+    margin: 40px 0;
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+/*
+.card-deck > div {
+    background-color: black;
+}
+*/
+
+.card-deck div {
+    background-color: black;
+}
+
+.card img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#team-header-bg {
+    background-image: url(../img/cookies-in-space.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    height: 200px;
+}
+
+#team-header {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#team-header h1,
+#team-header span {
+    mix-blend-mode: hard-light;
+}
+
+.card-title {
+    line-height: 2.6rem;
+}
+
+.info{
+    display: none;
+    position: absolute;
+}
+
+.card-info {
+    position: relative;
+}
+
+.card:hover .info {
+    display: block;
+    align-items: stretch;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0px;
+    margin: 1px;
+    height: 100%;
+    overflow: auto;
+}
+
+.info p {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.initials {
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 576px) {
+    .line-1, .line-2 {
+        font-size: 3rem;
+        mix-blend-mode: exclusion;
+    }
+    
+    .line-1 {
+        padding-top: 120px;
+        padding-left: 15%;
+    }
+    
+    .line-2 {
+        padding-left: 30%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .line-1, .line-2 {
+        font-size: 3rem;
+        mix-blend-mode: exclusion;
+    }
+    
+    .line-1 {
+        padding-top: 120px;
+        padding-left: 15%;
+    }
+    
+    .line-2 {
+        padding-left: 30%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .line-1, .line-2 {
+        font-size: 4rem;
+        mix-blend-mode: exclusion;
+    }
+    
+    .line-1 {
+        padding-top: 120px;
+        padding-left: 25%;
+    }
+    
+    .line-2 {
+        padding-left: 40%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}

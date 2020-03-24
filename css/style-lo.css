@@ -1,0 +1,109 @@
+/*------------Abdulrahman---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+    font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    color: white;
+}
+
+/*------------Burak---------------*/
+/*------------Kaan---------------*/
+/*------------Lobana---------------*/
+
+.sizeEm{
+	height: 30em !important;
+}
+.bgblackL{
+	background-color: rgba(0,0,0,1) !important;
+}
+.bgImag0{
+	height: 30em !important;
+	background:url(../img/slider/00.jpg) no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+.bgImag1{
+	height: 30em !important;
+	background:url('../img/slider/11.jpg') no-repeat ;
+	background-size: cover;
+	background-position: center; 
+}
+.bgImag2{
+	height: 30em !important;
+	background:url('../img/slider/22.jpg') no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+.bgImag3{
+	height: 30em !important;
+	background:url('../img/slider/4.jpg') no-repeat ;
+	background-size: cover;
+	background-position: center; 
+}
+.bgImag4{
+	height: 30em !important;
+	background:url('../img/slider/33.jpg') no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+.bgImag5{
+	height: 30em !important;
+	background:url('../img/slider/555.jpg') no-repeat;
+	background-size: cover;
+	background-position: center; 
+}
+
+
+.sizel{
+	font-size: 3.5em;
+	text-shadow: 2px 2px 4px #007bff;
+}
+.bgblack{
+	background-color: black;
+}
+.slid-text-sh{
+	text-shadow: 2px 3px 5px black !important;
+	color: white !important;
+}
+.orderLH{
+	display: none !important;
+}
+.quarter{
+	height: 50% !important;
+	width: 50% !important;
+	float: left;
+}
+.opacity40{
+	opacity: 0%;
+}
+.borderbtm{
+	border-bottom: 0.20em solid white !important;
+	width: 1% !important;
+	height: 1% !important;
+	mix-blend-mode: difference;
+}
+.bordernone{
+	border: none !important;
+	background-color: black !important;
+}
+.quarter:hover img{
+	opacity: 20% !important;
+}
+.quarter:hover .opacity40{
+	color: white;
+	opacity: 100%;
+}
+
+.coll{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.bbg{
+	background-color: rgba(0,0,0,0.80);
+}
+
+.card-img {
+	max-height: 100%;
+}

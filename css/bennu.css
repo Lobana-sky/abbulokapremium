@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+* {
+    font-family: 'Titillium Web', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url(../img/bennuasteroid.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 300px;
+}
+
+.line-1, .line-2 {
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.line-1 {
+    padding-top: 120px;
+    padding-left: 20%;
+    font-size: 2rem;
+}
+
+.line-2 {
+    font-size: 2.6rem;
+    padding-right: 20%;
+    text-align: right;
+}
+
+.text-box {
+    padding: 50px 10%;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.col-img-1 {
+    background-image: url(../img/Asteroid-Bennu-earth-shut.jpg);
+    transform: scaleX(-1);
+    background-size: cover;
+    background-position: center;
+}
+
+.col-img-2 {
+    background-image: url(../img/2309_Bennu_Particle_Jets_320.jpg);
+    background-size: cover;
+}
+
+.col-img-3 {
+    background-image: url(../img/917_687_bennu_carousel_2_thumb.jpg);
+    background-size: cover;
+}
+
+.hor-line {
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 3px;
+    margin: 40px 0;
+}
+
+.fade-in {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+
+/*
+.card-deck > div {
+    background-color: black;
+}
+*/
+
+.card-deck div {
+    background-color: black;
+}
+
+.card img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#team-header-bg {
+    background-image: url(../img/cookies-in-space.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    height: 200px;
+}
+
+.card-num {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 6rem;
+    width: 8rem;
+    height: 8rem;
+    margin: 40px auto 0;
+}
+
+.card-title {
+    line-height: 2.6rem;
+}
+
+.info{
+    display: none;
+    position: absolute;
+}
+
+.card-info {
+    position: relative;
+}
+
+.card:hover .info {
+    display: block;
+    align-items: stretch;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0px;
+    margin: 1px;
+    height: 100%;
+    overflow: auto;
+}
+
+#faq h1 {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -37%);
+}
+
+.info p {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -37%);
+}
+
+.initials {
+    border-bottom: 2px solid white;
+}
+
+@media (min-width: 576px) {
+    .line-1, .line-2 {
+        
+
+    }
+    
+    .line-1 {
+        padding-top: 120px;
+        padding-left: 15%;
+    }
+    
+    .line-2 {
+        padding-left: 30%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .line-1, .line-2 {
+        
+    }
+    
+    .line-1 {
+        padding-top: 120px;
+        padding-left: 15%;
+    }
+    
+    .line-2 {
+        padding-left: 30%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .line-1, .line-2 {
+
+    }
+    
+    .line-1 {
+        font-size: 2.5rem;
+        padding-top: 120px;
+        padding-left: 25%;
+    }
+    
+    .line-2 {
+        font-size: 4rem;
+        padding-left: 40%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}

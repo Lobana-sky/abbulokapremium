@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/story.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css">
+    <title>Abbuloka | Story</title>
+  </head>
+  <body>
+    <!--------------Navbar-------------->
+
+    <div id="head">
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark p-4">
+        <a id="abbu-ka" class="navbar-brand font-weight-bold ml-4" href="index.html"><img id="logo" width="50%"
+            src="img/logo_index.png" alt=""></a>
+        <button style="margin-top: 0;" class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+          data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul id="navUl" class="navbar-nav mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="noArrow nav-link homeText" href="index.html" id="dropdownId" aria-haspopup="true"
+                aria-expanded="false">HOME</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" href="story.html">OUR STORY <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" href="bennu.html">BENNU <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" id="productText" href="product.html">PRODUCTS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link homeText" href="./login.html">LOGIN</a>
+            </li>
+            <li class="nav-item" style="width: 1.5%;">
+              <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                       <img id="searchB" width="450%" src="img/search_icon.png">
+                         <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1">
+                        <li role="presentation"><p id="searchText" class="text-dark display-4">Search</p>
+                            <a role="menuitem" tabindex="-1" href="#"><form class="form-inline my-2 my-lg-0">
+                                 <div id="searchDiv">
+
+                                
+                          <input id="searchForm" class="form-control mr-sm-2" type="text" placeholder="Type here to search..">
+                              <button id="searchButton" class="btn btn-outline-secondary bg-secondary my-2 my-sm-0 text-dark font-weight-bold" type="submit">Search</button>
+                           </div></form></a></li>
+                        </ul>
+                    </div>
+        </li>
+            <li class="nav-item" style="width: 1.5%;">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu2" data-toggle="dropdown">
+                  <img width="450%" src="img/shopping_icon.jpg">
+                </button>
+                <ul class="dropdown-menu bar" role="menu" aria-labelledby="menu1"
+                  style="margin-top: 0px; border-top-width: 0px;">
+                  <div id="cartMenu">
+                    <p id="cartText">CART</p>
+                    <p id="numProducts">0 products in your cart</p>
+                    <div id="special">
+                      <div class="form-group">
+                        <label for=""></label>
+                        <textarea style="background-color: gainsboro;" placeholder="Special instructions for seller."
+                          style="height: 100%;" class="form-control" name="" id=""
+                          rows="10">Special instructions, notes, or shipping account information.</textarea>
+                      </div>
+                    </div>
+
+                    <p>Total: <span id="dolars">$0.00</span> </p>
+                    <p id="shipping">Shipping & taxes calculated at checkout</p>
+                  </div>
+                  <button type="button" class="cartButton btn btn-dark">EDIT CART</button>
+                  <button type="button" class="cartButton btn btn-warning">CHECKOUT</button>
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+    <!--------------Our Story-------------->
+    <header class="container-fluid">
+      <h1 class="text-uppercase line-1">a journey</h1>
+      <h1 class="text-uppercase line-2">to eternal life</h1>
+    </header>
+
+    <div class="sticky-top"> </div>
+
+    <section id="story" class="container-fluid bg-black">
+      <div class="row py-4">
+        <div class="col-md-6 col-img-1 fade-in"></div>
+        <div class="col-md-6">
+          <div class="text-box">
+            <h2 class="text-uppercase">New Beginning</h2>
+            <span class="hor-line"></span>
+            <p>There is a mysterious carbonaceous asteroid  in the Apollo group discovered by the LINEAR Project on 11 September 1999. It is named after the Bennu, the ancient Egyptian mythological bird associated with the Sun, creation, and rebirth. Bennu was the target of the OSIRIS-REx mission which is intended to return samples to Earth in 2015 for further study. After deeply  studies, scientists proved that Bennu's building block elements has an immense power of renewability on body cells and this allows you to be able to have an infinite life.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row py-4">
+        <div class="col-md-6">
+          <div class="text-box">
+            <h2 class="text-uppercase">Opporunity for All</h2>
+            <span class="hor-line"></span>
+            <p>As abbuloka team we became part of this incredible journey.  After all that exciting results, we created abbuloka , which means craziness on the space, mission to bring some Bennu's rocks to world to open the doors for eternal life to anyone. Our professional crew landed on Bennu's surface and picked some freshly activated rock pieces for you and carefully protect its energy level till to the world against energy level changes between galaxies.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-img-2 fade-in"></div>
+      </div>
+      <div class="row py-4">
+        <div class="col-md-6 col-img-3 fade-in"></div>
+        <div class="col-md-6">
+          <div class="text-box">
+            <h2 class="text-uppercase">What are you waiting for!</h2>
+            <span class="hor-line"></span>
+            <p>What you need to do is just to have some piece of Bennu's rocks and always keep close to your body. It is going to help to renew all body cells thanks to energy source of  unique Bennu rocks. No any side effect. You won't see any changes by bare eyes once your use it but your body will know it. Additionally, to get maximum benefit for Bennu's rocks, you have to use all your rocks as personal not to mix of energy levels with other person.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="container-fluid bg-black pt-4">
+      <div id="team-header-bg">
+        <div id="team-header" class="text-center pt-5 h-100">
+          <h1 class="text-uppercase">Our Team</h1>
+          <span class="hor-line"></span>
+        </div>
+      </div>
+      
+      <div class="card-deck py-4">
+          <div class="m-4 card border-light text-center px-0">
+            <div class="card-info">
+              <img src="./img/ab.jpg" alt="" class="card-img-top">
+              <div class="card-text info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title py-4"><span class="initials">Ab</span>dulrahman Y. idlbi</h4>
+            </div>
+            <h5 class="card-footer">Troublemaker</h5>
+          </div>
+
+          <div class="m-4 card border-light text-center px-0">
+            <div class="card-info">
+              <img src="./img/bu.jpeg" alt="" class="card-img-top">
+              <div class="card-text info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title py-4"><span class="initials">Bu</span>rak Sürmen</h4>
+            </div>
+            <h5 class="card-footer">Troubleshooter</h5>
+          </div>
+
+          
+          <div class="w-100 d-none d-sm-block d-md-block d-lg-none"><!-- wrap every 2 on md--></div>
+          
+          <div class="m-4 card border-light text-center px-0">
+            <div class="card-info">
+              <img src="./img/lo.png" alt="" class="card-img-top">
+              <div class="card-text info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title py-4"><span class="initials">Lo</span>bana Alarabi</h4>
+            </div>
+            <h5 class="card-footer">Developer</h5>
+          </div>
+
+          <div class="m-4 card border-light text-center px-0">
+            <div class="card-info">
+              <img src="./img/ka.jpeg" alt="" class="card-img-top">
+              <div class="card-text info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title py-4"><span class="initials">Ka</span>an Küreli</h4>
+            </div>
+            <h5 class="card-footer">Developer</h5>
+          </div>
+
+
+      </div>
+      
+    </section>
+
+    <!--------------Footer-------------->
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="footerRightAlign">
+              <h3 class="text-white font-weight-bold">Subscribe To Our
+                Newsletter</h3>
+              <p class="text-white">Stay up to date with our latest offers!</p>
+              <form>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email address" aria-label="Email address" aria-describedby="basic-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-light" type="button">Sign Up</button>
+                  </div>
+                </div>
+              </form>
+              <p class="text-white">Questions? Please write us at: <a href="mailto:info@abbuloka.com">info@abbuloka.com</a></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div id="info" class="footerRightAlign">
+              <h6 class="text-white font-weight-bold">INFO</h6>
+              <ul class="foot-to-left">
+                <a href="bennu.html#faq">
+                  <li class="d-inline-block mr-3">FAQ</li>
+                </a>
+                <a href="contact.html">
+                  <li class="d-inline-block mr-3">Contact</li>
+                </a>
+                <a href="#">
+                  <li class="d-inline-block">Press</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row align-items-end">
+          <div class="col-md-6 ">
+            <div class="footerRightAlign">
+              <h6 id="copyright" class="text-white mb-3">Copyright © 2020, ABBULOKA</h6>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3 ">
+            <div id="stayIn" class="footerRightAlign">
+              <h6 class="text-white font-weight-bold">STAY IN TOUCH</h6>
+              <ul class="foot-to-left">
+                <a href="https://www.facebook.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-facebook-square fa-2x"></i></li>
+                </a>
+                <a href="https://twitter.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-twitter-square fa-2x"></i></li>
+                </a>
+                <a href="https://tr.pinterest.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-pinterest-square fa-2x"></i></li>
+                </a>
+                <a href="https://www.instagram.com/">
+                  <li class="d-inline-block mr-3"><i class="fab fa-instagram fa-2x"></i></li>
+                </a>
+                <a href="https://www.linkedin.com/feed/">
+                  <li class="d-inline-block"><i class="far fa-envelope fa-2x"></i></li>
+                </a>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
